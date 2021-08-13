@@ -20,15 +20,21 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="Map.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Entity.h">
+    <ClInclude Include="ProfessedFunction.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="EntityDiagram.cd">
+    <None Include="EntityClassDiagram.cd">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>

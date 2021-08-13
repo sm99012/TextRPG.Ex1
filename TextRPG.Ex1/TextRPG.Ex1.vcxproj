@@ -143,10 +143,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="ProfessedFunction.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="EntityDiagram.cd" />
+    <None Include="EntityClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
